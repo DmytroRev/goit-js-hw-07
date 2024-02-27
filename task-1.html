@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <style>
+      h2, ul, li {
+        margin: 0;
+        padding: 0;
+      }
+
+      .item {
+        background-color: #F6F6FE;
+        width: 392px;
+        list-style-type: none;
+        padding: 16px;
+
+        margin-bottom: 24px;
+        border-radius: 8px;
+        box-shadow: 2px 1px 1px rgba(46, 47, 66, 0.08), 1px 5px 1px rgba(46, 47, 66, 0.16), 2px 5px 1px rgba(46, 47, 66, 0.08)
+      }
+
+      .item:hover {
+        border: 2px #2E2F42 solid;
+      }
+
+      li {
+        list-style-type: none;
+        
+      }
+
+      h2 {
+        font-size: 32px;
+        font-family: 'montserat', sans-serif;
+        margin-bottom: 16px;
+
+      }
+
+  
+      .style-css {
+        flex-direction: column;
+        display: flex;
+        row-gap: 8px;
+      }
+
+      .border {
+        padding-left: 16px;
+        display: flex;
+        align-items: center;
+        width: 360px;
+        height: 40px;
+        border: 1px solid #808080;
+        border-radius: 4px;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
+      }
+    </style>
+  </head>
+  <body>
+    <p><a href="./index.html">Go back</a></p>
+
+    <ul id="categories">
+      <li class="item">
+        <h2>Animals</h2>
+
+        <ul>
+          <li class="border">Cat</li>
+          <li class="border">Hamster</li>
+          <li class="border">Horse</li>
+          <li class="border">Parrot</li>
+        </ul>
+      </li>
+      <li class="item">
+        <h2>Products</h2>
+
+        <ul  class="style-css">
+          <li class="border">Bread</li>
+          <li class="border">Prasley</li>
+          <li class="border">Cheese</li>
+        </ul>
+      </li>
+      <li class="item">
+        <h2>Technologies</h2>
+
+        <ul  class="style-css">
+          <li class="border">HTML</li>
+          <li class="border">CSS</li>
+          <li class="border">JavaScript</li>
+          <li class="border">React</li>
+          <li class="border">Node.js</li>
+        </ul>
+      </li>
+    </ul>
+
+    <script src="./js/task-1.js" type="module"></script>
+  </body>
+</html>
